@@ -3,7 +3,7 @@ workspace "RayTracer"
     configurations 
     { 
       "Debug", 
-      "Release", 
+      "Release"
     }
 
     startproject "RayTracer"
@@ -31,9 +31,9 @@ project "RayTracer"
     }
 
     defines
-      {
+    {
         "_CRT_SECURE_NO_WARNINGS"
-      }
+    }
     
     filter "system:windows"
       systemversion "latest"
